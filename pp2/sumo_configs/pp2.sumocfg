@@ -1,0 +1,8 @@
+<configuration>
+
+    <input>
+        <net-file value="./pp2_big.net.xml"/>
+        <route-files value="./pp2.rou.xml"/>
+    </input>
+
+</configuration>

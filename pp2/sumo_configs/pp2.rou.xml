@@ -1,0 +1,20 @@
+<routes>
+    <vType id="type1" sigma="0" minGap="15" maxSpeed="80"/>
+    
+    <route edges="E0 E1" id="route_0" />
+    <route edges="E0 E2" id="route_1" />
+    <route edges="E0 E3" id="route_2" />
+
+    <route edges="-E1 -E0" id="route_3" />
+    <route edges="-E1 E2" id="route_4" />
+    <route edges="-E1 E3" id="route_5" />
+
+    <route edges="-E2 -E0" id="route_6" />
+    <route edges="-E2 E1" id="route_7" />
+    <route edges="-E2 E3" id="route_8" />
+
+    <route edges="-E3 -E0" id="route_9" />
+    <route edges="-E3 E1" id="route_10" />
+    <route edges="-E3 E2" id="route_11" />
+    
+</routes>

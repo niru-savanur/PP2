@@ -1,0 +1,70 @@
+sumo_cfg: "../sumo_configs/pp2.sumocfg"
+
+trip_info_out: "../out/tripinfo.xml"
+collisions_out: "../out/collisions.xml"
+statistics_out: "../out/statistics.xml"
+
+veh_mode: 32
+
+veh_speed_default: 13.88 #50 km/h
+
+increased_speed: 19.44 #70 km/h
+
+veh_speed_intersection: 1.11 #40 km/h
+
+slowdown_time: 3
+
+speedup_time: 3
+
+num_vehicles: 1
+
+num_routes: 12
+
+control_radius: 300
+
+intersection_radius: 50
+
+intersection_coords: [-764.17, -1934.98]
+
+# assumed junction layout
+
+# 4  |  1
+#    |
+# -------   
+#    |
+# 3  |  2
+
+junction_area_taken: {
+  0: [3, 2],
+  1: [3],
+  2: [3, 2, 1],
+  3: [1, 4],
+  4: [1, 4, 3],
+  5: [1],
+  6: [2, 1, 4],
+  7: [2],
+  8: [2, 1],
+  9: [4],
+  10: [4, 3, 2],
+  11: [4, 3]
+}
+
+acceleration_rate: 5
+
+acceleration_duration: 0.5
+
+default_deceleration_rate: 2
+
+default_deceleration_duration: 0.5
+
+safe_distance: 15
+
+veh_col_green: [0, 165, 0] 
+
+veh_col_orange: [255, 165, 0] 
+
+veh_col_grey: [120, 120, 120]
+
+step_length: "0.2"
+
+sigma: 0
